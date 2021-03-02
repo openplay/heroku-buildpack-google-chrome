@@ -91,6 +91,7 @@ case "$stack" in
       libxrandr2
       libxss1
       libxtst6
+      libxshmfence1
       fonts-liberation
     "
     ;;
