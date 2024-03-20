@@ -102,9 +102,9 @@ if [ ! -f $CACHE_DIR/PURGED_CACHE_V1 ]; then
   touch $CACHE_DIR/PURGED_CACHE_V1
 fi
 
-topic "Installing Google Chrome 76 from an archive."
+topic "Installing Google Chrome 122 from an archive."
 
-PACKAGES="$PACKAGES https://openplay-google-chrome-76-buildpack.s3.amazonaws.com/google-chrome-stable_76.0.3809.132-1_amd64.deb"
+PACKAGES="$PACKAGES https://openplay-google-chrome.s3.amazonaws.com/google-chrome-stable_122.0.6261.128-1_amd64.deb"
 
 APT_CACHE_DIR="$CACHE_DIR/apt/cache"
 APT_STATE_DIR="$CACHE_DIR/apt/state"
